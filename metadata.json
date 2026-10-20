@@ -1,0 +1,6 @@
+{
+  "name": "Zena Foodies",
+  "description": "Authentic Nigerian delicacies, delicious local flavours and refreshing fruit smoothies. Crafted with love, ordered directly on WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

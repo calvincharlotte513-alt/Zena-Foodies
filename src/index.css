@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080807;
+    color: #F7F4EE;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Haute Gastronomy Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080807;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2820;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5C158;
+}
+
+/* Subtle luxury grain / vignette */
+.bg-noir-radial {
+  background: radial-gradient(circle at 50% 0%, rgba(201, 122, 62, 0.08) 0%, rgba(8, 8, 7, 0) 70%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px -10px rgba(229, 193, 88, 0.15);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 10px 40px -10px rgba(229, 193, 88, 0.25);
+}
